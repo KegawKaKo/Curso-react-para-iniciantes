@@ -1,0 +1,33 @@
+.task-item {
+  background-color: rgb(186, 142, 228);
+  border-radius: 15px;
+  box-shadow: 5px 6px 3px rgba(1, 3, 8, 0.521);
+  cursor: pointer;
+  margin-bottom: 8px;
+  width: 100%;
+  padding: 8px 4px;
+
+  font-size: 14px;
+  text-align: center;
+}
+
+.task-item input[type="text"] {
+  border: none;
+  background-color: rgb(148, 65, 167);
+  border-radius: 10px;
+  text-align: center;
+  font-size: 14px;
+  display: block;
+  width: 100%;
+}
+
+.task-item select {
+  display: unset;
+  background-color: rgb(148, 65, 167);
+  text-align: center;
+  border-radius: 15px;
+  margin-top: 8px;
+}
+.task-item select:hover {
+  background-color: rgb(188, 172, 192);
+}
